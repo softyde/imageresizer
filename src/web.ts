@@ -1,7 +1,12 @@
 import { WebPlugin } from '@capacitor/core';
-import { ImageResizerPlugin } from './definitions';
+import { ImageResizerPlugin, ImageResizeOptions } from './definitions';
 
 export class ImageResizerWeb extends WebPlugin implements ImageResizerPlugin {
+
+  async resizeImage(_options: ImageResizeOptions): Promise<{ path: string; }> {
+    throw new Error("Method not implemented.");
+  }
+
   constructor() {
     super({
       name: 'ImageResizer',
@@ -9,10 +14,7 @@ export class ImageResizerWeb extends WebPlugin implements ImageResizerPlugin {
     });
   }
 
-  async echo(options: { value: string }): Promise<{value: string}> {
-    console.log('ECHO', options);
-    return options;
-  }
+
 }
 
 const ImageResizer = new ImageResizerWeb();
