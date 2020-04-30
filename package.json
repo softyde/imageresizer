@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-image-resizer",
-  "version": "0.0.5",
+  "name": "@softyde/image-resizer",
+  "version": "0.0.2",
   "description": "Capacitor image resize plugin",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -25,7 +25,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorImageResizer.podspec"
+    "SoftydeImageResizer.podspec"
   ],
   "keywords": [
     "capacitor",

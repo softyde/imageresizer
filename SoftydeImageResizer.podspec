@@ -1,7 +1,7 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorImageResizer'
-    s.version = '0.0.5'
+    s.name = 'SoftydeImageResizer'
+    s.version = '0.0.2'
     s.summary = 'Capacitor image resize plugin'
     s.license = 'MIT'
     s.homepage = 'https://github.com/softyde/imageresizer.git'
